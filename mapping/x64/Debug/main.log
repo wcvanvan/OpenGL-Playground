@@ -1,0 +1,120 @@
+﻿  main.cpp
+glslprogram.obj : error LNK2019: unresolved external symbol __imp___glewAttachShader referenced in function "public: void __cdecl GLSLProgram::compileShader(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum GLSLShader::GLSLShaderType,char const *)" (?compileShader@GLSLProgram@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4GLSLShaderType@GLSLShader@@PEBD@Z)
+glslprogram.obj : error LNK2019: unresolved external symbol __imp___glewBindAttribLocation referenced in function "public: void __cdecl GLSLProgram::bindAttribLocation(unsigned int,char const *)" (?bindAttribLocation@GLSLProgram@@QEAAXIPEBD@Z)
+glslprogram.obj : error LNK2019: unresolved external symbol __imp___glewCompileShader referenced in function "public: void __cdecl GLSLProgram::compileShader(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum GLSLShader::GLSLShaderType,char const *)" (?compileShader@GLSLProgram@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4GLSLShaderType@GLSLShader@@PEBD@Z)
+glslprogram.obj : error LNK2019: unresolved external symbol __imp___glewCreateProgram referenced in function "public: void __cdecl GLSLProgram::compileShader(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum GLSLShader::GLSLShaderType,char const *)" (?compileShader@GLSLProgram@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4GLSLShaderType@GLSLShader@@PEBD@Z)
+glslprogram.obj : error LNK2019: unresolved external symbol __imp___glewCreateShader referenced in function "public: void __cdecl GLSLProgram::compileShader(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum GLSLShader::GLSLShaderType,char const *)" (?compileShader@GLSLProgram@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4GLSLShaderType@GLSLShader@@PEBD@Z)
+glslprogram.obj : error LNK2019: unresolved external symbol __imp___glewDeleteProgram referenced in function "public: __cdecl GLSLProgram::~GLSLProgram(void)" (??1GLSLProgram@@QEAA@XZ)
+glslprogram.obj : error LNK2019: unresolved external symbol __imp___glewDeleteShader referenced in function "public: __cdecl GLSLProgram::~GLSLProgram(void)" (??1GLSLProgram@@QEAA@XZ)
+glslprogram.obj : error LNK2019: unresolved external symbol __imp___glewGetAttachedShaders referenced in function "public: __cdecl GLSLProgram::~GLSLProgram(void)" (??1GLSLProgram@@QEAA@XZ)
+glslprogram.obj : error LNK2019: unresolved external symbol __imp___glewGetProgramInfoLog referenced in function "public: void __cdecl GLSLProgram::link(void)" (?link@GLSLProgram@@QEAAXXZ)
+glslprogram.obj : error LNK2019: unresolved external symbol __imp___glewGetProgramiv referenced in function "public: __cdecl GLSLProgram::~GLSLProgram(void)" (??1GLSLProgram@@QEAA@XZ)
+glslprogram.obj : error LNK2019: unresolved external symbol __imp___glewGetShaderInfoLog referenced in function "public: void __cdecl GLSLProgram::compileShader(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum GLSLShader::GLSLShaderType,char const *)" (?compileShader@GLSLProgram@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4GLSLShaderType@GLSLShader@@PEBD@Z)
+glslprogram.obj : error LNK2019: unresolved external symbol __imp___glewGetShaderiv referenced in function "public: void __cdecl GLSLProgram::compileShader(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum GLSLShader::GLSLShaderType,char const *)" (?compileShader@GLSLProgram@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4GLSLShaderType@GLSLShader@@PEBD@Z)
+glslprogram.obj : error LNK2019: unresolved external symbol __imp___glewGetUniformLocation referenced in function "private: int __cdecl GLSLProgram::getUniformLocation(char const *)" (?getUniformLocation@GLSLProgram@@AEAAHPEBD@Z)
+glslprogram.obj : error LNK2019: unresolved external symbol __imp___glewLinkProgram referenced in function "public: void __cdecl GLSLProgram::link(void)" (?link@GLSLProgram@@QEAAXXZ)
+glslprogram.obj : error LNK2019: unresolved external symbol __imp___glewShaderSource referenced in function "public: void __cdecl GLSLProgram::compileShader(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum GLSLShader::GLSLShaderType,char const *)" (?compileShader@GLSLProgram@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4GLSLShaderType@GLSLShader@@PEBD@Z)
+glslprogram.obj : error LNK2019: unresolved external symbol __imp___glewUniform1f referenced in function "public: void __cdecl GLSLProgram::setUniform(char const *,float)" (?setUniform@GLSLProgram@@QEAAXPEBDM@Z)
+glslprogram.obj : error LNK2019: unresolved external symbol __imp___glewUniform1i referenced in function "public: void __cdecl GLSLProgram::setUniform(char const *,int)" (?setUniform@GLSLProgram@@QEAAXPEBDH@Z)
+glslprogram.obj : error LNK2019: unresolved external symbol __imp___glewUniform2f referenced in function "public: void __cdecl GLSLProgram::setUniform(char const *,struct glm::vec<2,float,0> const &)" (?setUniform@GLSLProgram@@QEAAXPEBDAEBU?$vec@$01M$0A@@glm@@@Z)
+glslprogram.obj : error LNK2019: unresolved external symbol __imp___glewUniform3f referenced in function "public: void __cdecl GLSLProgram::setUniform(char const *,float,float,float)" (?setUniform@GLSLProgram@@QEAAXPEBDMMM@Z)
+glslprogram.obj : error LNK2019: unresolved external symbol __imp___glewUniform4f referenced in function "public: void __cdecl GLSLProgram::setUniform(char const *,struct glm::vec<4,float,0> const &)" (?setUniform@GLSLProgram@@QEAAXPEBDAEBU?$vec@$03M$0A@@glm@@@Z)
+glslprogram.obj : error LNK2019: unresolved external symbol __imp___glewUniformMatrix3fv referenced in function "public: void __cdecl GLSLProgram::setUniform(char const *,struct glm::mat<3,3,float,0> const &)" (?setUniform@GLSLProgram@@QEAAXPEBDAEBU?$mat@$02$02M$0A@@glm@@@Z)
+glslprogram.obj : error LNK2019: unresolved external symbol __imp___glewUniformMatrix4fv referenced in function "public: void __cdecl GLSLProgram::setUniform(char const *,struct glm::mat<4,4,float,0> const &)" (?setUniform@GLSLProgram@@QEAAXPEBDAEBU?$mat@$03$03M$0A@@glm@@@Z)
+glslprogram.obj : error LNK2019: unresolved external symbol __imp___glewUseProgram referenced in function "public: void __cdecl GLSLProgram::use(void)" (?use@GLSLProgram@@QEAAXXZ)
+glslprogram.obj : error LNK2019: unresolved external symbol __imp___glewValidateProgram referenced in function "public: void __cdecl GLSLProgram::validate(void)" (?validate@GLSLProgram@@QEAAXXZ)
+glslprogram.obj : error LNK2019: unresolved external symbol __imp___glewBindFragDataLocation referenced in function "public: void __cdecl GLSLProgram::bindFragDataLocation(unsigned int,char const *)" (?bindFragDataLocation@GLSLProgram@@QEAAXIPEBD@Z)
+glslprogram.obj : error LNK2019: unresolved external symbol __imp___glewUniform1ui referenced in function "public: void __cdecl GLSLProgram::setUniform(char const *,unsigned int)" (?setUniform@GLSLProgram@@QEAAXPEBDI@Z)
+glslprogram.obj : error LNK2019: unresolved external symbol __imp___glewGetProgramInterfaceiv referenced in function "public: void __cdecl GLSLProgram::printActiveAttribs(void)" (?printActiveAttribs@GLSLProgram@@QEAAXXZ)
+glslprogram.obj : error LNK2019: unresolved external symbol __imp___glewGetProgramResourceName referenced in function "public: void __cdecl GLSLProgram::printActiveAttribs(void)" (?printActiveAttribs@GLSLProgram@@QEAAXXZ)
+glslprogram.obj : error LNK2019: unresolved external symbol __imp___glewGetProgramResourceiv referenced in function "public: void __cdecl GLSLProgram::printActiveAttribs(void)" (?printActiveAttribs@GLSLProgram@@QEAAXXZ)
+glutils.obj : error LNK2019: unresolved external symbol __imp___glewGetStringi referenced in function "void __cdecl GLUtils::dumpGLInfo(bool)" (?dumpGLInfo@GLUtils@@YAX_N@Z)
+vbotorus.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+vbosphere.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+vbosphere2.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+vboteapot.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+vboteapotpatch.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+vbocube.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+vbomesh.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+vbomeshadj.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+vboplane.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+vbotorus.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+vbosphere.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+vbosphere2.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+vboteapot.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+vboteapotpatch.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+vbocube.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+vbomesh.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+vbomeshadj.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+vboplane.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+vbotorus.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+vbosphere.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+vbosphere2.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+vboteapot.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+vboteapotpatch.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+vbocube.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+vbomesh.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+vbomeshadj.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+vboplane.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+vbotorus.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+vbosphere.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+vbosphere2.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+vboteapot.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+vboteapotpatch.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+vbocube.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+vbomesh.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+vbomeshadj.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+vboplane.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+vbotorus.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+vbosphere.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+vbosphere2.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+vboteapot.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+vboteapotpatch.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+vbocube.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+vbomesh.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+vbomeshadj.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+vboplane.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+vbotorus.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+vbosphere.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+vbosphere2.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+vboteapot.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+vboteapotpatch.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+vbocube.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+vbomesh.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+vbomeshadj.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+vboplane.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+vbotorus.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+vbosphere.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+vbosphere2.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+vboteapot.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+vboteapotpatch.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+vbocube.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+vbomesh.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+vbomeshadj.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+vboplane.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+vboteapotpatch.obj : error LNK2019: unresolved external symbol __imp___glewPatchParameteri referenced in function "public: virtual void __cdecl VBOTeapotPatch::render(void)const " (?render@VBOTeapotPatch@@UEBAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glewGetErrorString referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glewGetString referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwInit referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSetErrorCallback referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwDestroyWindow referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSetWindowShouldClose referenced in function "void __cdecl MyKeyboardFunc(struct GLFWwindow *,int,int,int,int)" (?MyKeyboardFunc@@YAXPEAUGLFWwindow@@HHHH@Z)
+main.obj : error LNK2019: unresolved external symbol glfwGetFramebufferSize referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSetFramebufferSizeCallback referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwWaitEvents referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSetKeyCallback referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSetMouseButtonCallback referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSetCursorPosCallback referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSwapInterval referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp___glewActiveTexture referenced in function "void __cdecl SetupEnvMap(void)" (?SetupEnvMap@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp___glewGenerateMipmap referenced in function "void __cdecl SetupEnvMap(void)" (?SetupEnvMap@@YAXXZ)
+D:\Work\还在上的课\nus\graphics\assignments\a2\assign2_todo_(win-vs2017)\lib\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Work\还在上的课\nus\graphics\assignments\a2\assign2_todo_(win-vs2017)\lib\glew32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Work\还在上的课\nus\graphics\assignments\a2\assign2_todo_(win-vs2017)\x64\Debug\main.exe : fatal error LNK1120: 60 unresolved externals

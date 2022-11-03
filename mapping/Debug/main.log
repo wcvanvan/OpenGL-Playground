@@ -1,0 +1,22 @@
+﻿  glutils.cpp
+D:\Work\上完的课\nus\graphics\assignments\a2\assign2_todo_(win-vs2017)\helper\gldecl.h(7,10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  trackball.cc
+  vbomesh.cpp
+D:\Work\上完的课\nus\graphics\assignments\a2\assign2_todo_(win-vs2017)\helper\vbomesh.h(8,10): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  vbomeshadj.cpp
+D:\Work\上完的课\nus\graphics\assignments\a2\assign2_todo_(win-vs2017)\helper\vbomeshadj.h(8,10): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  vboplane.cpp
+D:\Work\上完的课\nus\graphics\assignments\a2\assign2_todo_(win-vs2017)\helper\gldecl.h(7,10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  vbosphere.cpp
+D:\Work\上完的课\nus\graphics\assignments\a2\assign2_todo_(win-vs2017)\helper\gldecl.h(7,10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  vbosphere2.cpp
+D:\Work\上完的课\nus\graphics\assignments\a2\assign2_todo_(win-vs2017)\helper\gldecl.h(7,10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  vboteapot.cpp
+D:\Work\上完的课\nus\graphics\assignments\a2\assign2_todo_(win-vs2017)\helper\vboteapot.h(5,10): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  vboteapotpatch.cpp
+D:\Work\上完的课\nus\graphics\assignments\a2\assign2_todo_(win-vs2017)\helper\vboteapotpatch.h(5,10): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  vbotorus.cpp
+D:\Work\上完的课\nus\graphics\assignments\a2\assign2_todo_(win-vs2017)\helper\gldecl.h(7,10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  main.cpp
+D:\Work\上完的课\nus\graphics\assignments\a2\assign2_todo_(win-vs2017)\main.cpp(28,10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  Generating Code...
