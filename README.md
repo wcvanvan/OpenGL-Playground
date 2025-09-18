@@ -1,4 +1,4 @@
-Some OpenGL tiny projects. All of them are tasks finished in summer camp of National University of Singapore.
+Some OpenGL tiny projects
 
 ****
 
